@@ -1,7 +1,7 @@
-## Node.js w/ Bower & Grunt Dockerfile
+## Node.js w/ Bower & Grunt & Gulp Dockerfile
 
 
-This repository contains **Dockerfile** of [Node.js](http://nodejs.org/) w/ [Bower](http://bower.io/) & [Grunt](http://gruntjs.com/) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/dockerfile/nodejs-bower-grunt/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
+This repository contains **Dockerfile** of [Node.js](http://nodejs.org/) w/ [Bower](http://bower.io/) & [Grunt](http://gruntjs.com/) & [Gulp](https://gulpjs.com/) for [Docker](https://www.docker.com/)'s [automated build](https://registry.hub.docker.com/u/dockerfile/nodejs-bower-grunt/) published to the public [Docker Hub Registry](https://registry.hub.docker.com/).
 
 
 ### Base Docker Image
@@ -37,3 +37,7 @@ This repository contains **Dockerfile** of [Node.js](http://nodejs.org/) w/ [Bow
 #### Run `grunt`
 
     docker run -it --rm dockerfile/nodejs-bower-grunt grunt
+
+#### Run `gulp`
+
+    docker run -it --rm dockerfile/nodejs-bower-grunt gulp
